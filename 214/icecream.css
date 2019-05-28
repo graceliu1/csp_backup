@@ -1,0 +1,33 @@
+body{
+	font-family: "Palatino";
+	color: #003366;
+}
+
+h1 {
+	font-size: 1.3;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+table {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-collapse: collapse;
+	height: 60px;
+}
+
+tr {
+	border: 1px solid #ffffff;
+	text-align: center;
+	background-color:#9FB6CD; 
+}
+
+th {
+	text-align: center;
+	color: #ffffff;
+	background-color: #003366;
+}
+

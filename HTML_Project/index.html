@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="bootstrap-4.1.2-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet"> <!--link to google fonts for special styling-->
+    </head>
+    <body>
+       <header class="container"> <!--add or remove container class-->
+           <div> <!--code for the navigation bar, used nav-pills instead of list-->
+                <nav class="nav navbar nav-pills nav-fill">
+                    <a href="index.html" class="nav-item nav-link active">Home </a>
+                    <a href="Liu_AboutMe.html" class="nav-item nav-link">About Me</a>
+                    <a href="Liu_Resume.html" class="nav-item nav-link">Resume</a>
+                    <a href="Liu_Projects.html" class="nav-item nav-link">Projects</a>
+                    <a href="Liu_ContactMe.html" class="nav-item nav-link">Contact Me</a>
+                </nav>   
+            </div>
+        </header>
+       
+        <div class="jumbotron text-center mx-auto"> <!--currently no container on the jumbotron class-->
+                <h1 class="specialfont">Grace Liu's Engineering Portfolio</h1> <!--Large text on jumbotron-->
+                <p class="specialfont2">Welcome to my online portfolio</p> <!--Small text on jumbotron-->
+        </div>
+         
+        
+        <div class="container" > <!--add or remove container class - temporary modification-->
+            <div class="row">
+                 <div class="col-sm-6"> <!--cards only take up half the screen regardless of amount of text-->
+                    <div class="card flex-sm-row">
+                        <div class="card-body">
+                            <strong>
+                            <h6>Projects</h6> <!--different parts of the card have different sizes for readability-->
+                            <h4>Space Invaders Game</h4>
+                            <h5>Fall 2018</h5>
+                            </strong>
+                            <p>This project was part of my Computer Science Principles class and
+                            spanned about three weeks. The objective was to design a successful
+                            app using Massachusetts Institute of Technology App Inventor software... </p>
+                            <a href="Liu_Projects.html"  class="btn btn-primary">Explore this project</a> <!--button linked to projects page-->
+                        </div>
+                        <img src="Images/spaceinvaders.PNG" class="card-img-right flex-sm-row" style='max-width:184px; max-height:220px'><!--images on cards
+                        have max on dimensions to prevent stretching-->
+                    </div>
+                </div>
+                
+                <div class="col-sm-6">
+                    <div class="card flex-sm-row"> <!--ensures the width is flexible on different sized screens-->
+                        <div class="card-body"> <!--main card content starts-->
+                            <strong>
+                            <h6>Projects</h6> 
+                            <h4>Family Framers</h4>
+                            <h5>April 2019</h5>
+                            </strong>
+                            <p>During second semester of the 2018-2019,
+                          I worked on an image manipulation project with my partner Megna Sankaranarayan.
+                          This project was coded in Python and provided a variety of different 
+                          manipulations... </p>
+                            <a href="Liu_Projects.html" class="btn btn-primary">Explore this project</a> <!--small change, button instead of link-->
+                        </div>
+                        <img src="Images/sciencefair.png" class="card-img-right flex-sm-row" style='max-width:220px; max-height:180px'> <!--images on cards
+                        have max on dimensions to prevent stretching-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <br></br>
+        
+        <div class="container"> <!--add or remove container class-->
+            <div class="row"> <!--another row of two cards, but hobbies instead of projects-->
+                <div class="col-sm-6">
+                    <div class="card flex-sm-row">
+                        <div class="card-body"> <!--main card content starts-->
+                            <strong>
+                            <h6>Extracurriculars</h6>
+                            <h4>STEM Pursuits</h4>
+                            <h5>2018-2019</h5>
+                            </strong>
+                            <p>I joined the Gael Force Robotics club in first semester on 
+                            5327R and plan to continue being an active member in the future.
+                            I also participate in the American Math Competitions..</p>
+                            <a href="Liu_AboutMe.html"  class="btn btn-primary">Explore this interest</a> <!--button linked to AboutMe page-->
+                        </div>
+                        <img src="Images/stem.png" class=" mx-auto  card-img-right flex-sm-row" style='max-width:200px; max-height:180px'> 
+                        <!--images on cards have max on dimensions to prevent stretching-->
+                    </div>
+                </div>
+                
+                <div class="col-sm-6">
+                    <div class="card flex-sm-row"> <!--allows flexibility with screen sizes-->
+                        <div class="card-body"> <!--main card content starts-->
+                            <strong>
+                            <h6>Extracurriculars</h6>
+                            <h4>Music</h4>
+                            <h5>2009-2018</h5>
+                            </strong>
+                            <p>Music has been an important part of my life since I started
+                            playing piano nine years ago. Since then, I have continued
+                            participating in competitions and examinations. In my free time, I also
+                            enjoy singing with my friends...</p>
+                            <a href="Liu_AboutMe.html"  class="btn btn-primary">Explore this interest</a> <!--button linked to AboutMe page-->
+                        </div>
+                        <img src="Images/treble.png" class="card-img-right flex-sm-row" style='max-width:184px; max-height:220px'>
+                        <!--images on cards have max on dimensions to prevent stretching-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br></br>
+        
+        <footer> <!--footer elements are linked to different ways of contacting-->
+            <div class="jumbotron">
+                <div class="container">
+                <div class="row">
+                    <a href="mailto:forevergrace.15@gmail.com" target="_blank" class="col-sm-2"> 
+                    <!--mailto: function sets up an instant draft to specified email address-->
+                        <img src="Images/maillogo.png" class="img-fluid" style='max-width: 100%; height: auto' alt="Mail Icon">
+                    </a>
+                    <a href="https://www.instagram.com/graciebelle.liu/" target="_blank" class="col-sm-2">
+                    <!--image links to instagram profile-->
+                        <img src="Images/instaglogo.png" class="img-fluid" style='max-width: 100%; height: auto' alt="Instagram">
+                    </a>
+                    <a href="https://www.dublin.k12.ca.us/dhs" target="_blank" class="col-sm-8 float-right">
+                    <!--links to school webpage, part of contact information and resume location-->
+                        <img src="Images/dublinlogo.png" class="img-fluid float-right" style='max-width: 100%; height: auto' alt="Dublin High School Logo">
+                    </a>
+                </div>
+                </div>
+            </div>
+        </footer>
+        
+    </body>
+</html>
